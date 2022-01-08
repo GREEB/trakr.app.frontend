@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        trakr.app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="scroll.css">
+
+
+</head>
+
+<body>
+
+    <section class="intro">
+        <nav>
+            <div class="logo">
+                <img src="images/location-dynamic-gradient.png" alt="">
+                <h1>trakr.app</h1>
+            </div>
+
+        </nav>
+        <div class="content">
+            <h1>Track car telemetry in <img src="images/3d-dynamic-gradient.png" alt="3D"> space </h1>
+            <p><span>How this works:</span> The Games we support can deliver telemetry over UDP, we parse and display this data</p>
+        </div>
+        <span class="scroll-btn">
+            <a href="#">
+                <span class="mouse">
+                    <span>
+                    </span>
+                </span>
+            </a>
+        </span>
+    </section>
+    <div style="clear:both"></div>
+    <div data-simplebar>
+        <section class="features">
+            <h1>Features</h1>
+            <ul>
+                <li>
+                    <img src="images/roll-brush-dynamic-gradient.png" alt="">
+                    <h3>GLSL Shaders for efficient visualisiation</h3>
+                    <p>Custom Vertex and Fragment shader support, premade shader library</p>
+                </li>
+                <li>
+                    <img src="images/wifi-dynamic-gradient.png" alt="">
+                    <h3>Realtime visuals in a browser</h3>
+                    <p>Monitor Data from anywhere in the world with your browser</p>
+                </li>
+                <li>
+                    <img src="images/flag-dynamic-gradient.png" alt="">
+                    <h3>Race and compare data</h3>
+                    <p>Compare Lap times and look at coresponding telemetry</p>
+                </li>
+            </ul>
+            <ul>
+                <li>
+                    <img src="images/zoom-dynamic-gradient.png" alt="">
+                    <h3>YDIY fully download raw data at anytime</h3>
+                    <p>Your data is Yours, you can do whatever you want we are simple a middleman to save data</p>
+                </li>
+                <li>
+                    <img src="images/scissor-dynamic-gradient.png" alt="">
+                    <h3>Custom Input</h3>
+                    <p>Use custom inputs to visualize data from anywhere</p>
+                </li>
+                <li>
+                    <img src="images/target-dynamic-gradient.png" alt="">
+                    <h3>Collaborative Mapping</h3>
+                    <p>Many diffrent clients can make up one map invite other users</p>
+                </li>
+            </ul>
+            <p class="wipinfo">Most of the stuff above unfortunately doesn’t work yet help me build this @ <a
+                    href="">github.com/GREEB/trakr.app</a></p>
+            <ul>
+                <li>
+                    <img src="images/key-dynamic-gradient.png" alt="">
+                    <h3>Open Source</h3>
+                    <p>Fully open source ready to selfhost</p>
+                </li>
+            </ul>
+        </section>
+        <div style="clear:both"></div>
+        <section class="supported">
+            <h1>Supported Games</h1>
+            <div class="content">
+                <p>A lot of games may be supported for now every game that sends at least xyz over UDP could be added, if a game is not here that you would like to add consider contributing on github</p>
+
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th><abbr title="How well this game is implementet">Implementation</abbr></th>
+                        <th><abbr title="Attributes we are currenlty saving for this game" position="right">Attributes</abbr></th>
+                        <th><abbr title="URL to set in the games UDP out setting">URL</abbr></th>
+
+                        <th><abbr title="Direct link to this part of the project" position="right">Github</abbr></th>
+
+                    </tr>
+                    <tr>
+                        <td>Forza Horizon 5</td>
+                        <td>Simple implementation</td>
+                        <td>x,y,z,s</td>
+                        <td><a href="http://fh5.trakr.app">fh5.trakr.app</a></td>
+                        <td><a href="#">contribute</a></td>
+
+
+                    </tr>
+                </table>
+            </div>
+
+
+
+        </section>
+
+</body>
+
+</html>
